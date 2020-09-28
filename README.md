@@ -170,6 +170,7 @@ or deploy it to a publicly reacheable URL endpoint.
 - Start the local development server:
   ```
   npm install --prefix app/
+  npm run build --prefix app/
   npm start --prefix app/
   ```
   > Note: The local development server needs to listen on the same local network as
