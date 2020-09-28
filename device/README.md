@@ -47,7 +47,7 @@ to receives the OPC commands.
 | -------- | --------- | ------- |
 | UDP  | WRITE | Raw OPC command |
 | TCP  | WRITE | Raw OPC command |
-| HTTP | POST  | OPC command as base64-encoded string |
+| HTTP | POST  | OPC command as base64-encoded `applicaton/octet-stream` |
 
 The following OPC commands are supported:
 
